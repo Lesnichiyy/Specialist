@@ -1,0 +1,66 @@
+* {
+  font-family: Arial;
+}
+
+h1, strong { 
+  color: #1a405e;
+}
+
+nav ul {
+  background: rgb(99, 99, 187);
+  list-style-type: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+p:nth-child(4) {
+  background: rgb(225, 250, 208);
+}
+
+.table {    
+    border-collapse: collapse;
+    width: 740px;
+    font-family: sans-serif;
+}
+
+caption {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid rgb(67, 69, 168);
+    padding: 4px 10px;
+}
+
+.theader {
+    text-align: left;
+    font-weight: bold;
+}
+
+.tfooter {
+    font-weight: bold;
+    text-align: right;
+}
+
+tr:nth-child(2n+1) {
+    background: rgb(188 188 241);
+}
+
+iframe {
+    border: 0;
+}
+
+textarea {
+    width: 400px;
+    height: 100px;
+    resize: none;    
+}
+
+.row {
+    padding: 2px;
+}
+
